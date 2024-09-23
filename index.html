@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estabelecimentos para Entretenimento e Lazer</title>
+    <style>
+        body {
+            background-color: rgba(255, 255, 0, 0.445);
+        }
+        main {
+            width: 900px;
+            background-image: linear-gradient(to left, rgba(0, 0, 255, 0.671), rgba(128, 0, 128, 0.664));
+            margin: auto;
+            border-radius: 15px;
+            border: 2px solid rgb(63, 0, 63);
+            box-shadow: 2px 2px 4px rgb(63, 0, 63);
+        }
+
+        h1 {
+            color: yellow;
+            font-family: cursive;
+            font-size: 3em;
+            text-align: center;
+            text-shadow: 1px 1px 1px rgb(99, 99, 0);
+        }
+
+        h2 {
+            color: rgb(248, 183, 63);
+            font-size: 2em;
+            text-shadow: 1px 1px 1px rgb(107, 79, 27);
+            text-align: center;
+        }
+
+        .imagens {
+            display: flex;
+            height: 256px;
+            border-radius: 15px;
+            box-shadow: 2px 2px 3px rgb(63, 0, 63);
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+
+
+        }
+
+        p {
+            display: flex;
+            text-align: justify;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-size: 1.1em;
+            font-weight: bold;
+            width: auto;
+        }
+
+        article {
+            display: flex;
+            margin-bottom: 40px;
+        }
+
+        a {
+            font-weight: bold;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: justify;
+        }
+
+        fieldset {
+            border: 2px solid black;
+            box-shadow: 1px 1px 1px rgb(63, 63, 63);
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        #cadastrar {
+            width: 100px;
+            height: 40px;
+            background-color: rgba(0, 0, 255, 0.363);
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px rgb(63, 63, 63);
+            font-weight: 700;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+
+        #cadastro {
+            flex-direction: ;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Estabelecimentos para Entretenimento e Lazer</h1>
+        <section>
+            <h2>Bares</h2>
+            <article>
+                <img class="imagens"
+                    src="https://images.stockcake.com/public/3/b/6/3b6b9291-1f82-404f-8843-a9ead3dc4ee8_medium/bustling-bar-scene-stockcake.jpg"
+                    alt="Foto de bar, com pessoas se divertindo">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos nesciunt quos at aliquam
+                        dolorum dolore laborum ex eligendi numquam recusandae aperiam non tenetur sunt, praesentium
+                        voluptate hic atque, libero eum!</p>
+                    <a style="text-align: center;" href="#">Saiba mais sobre nosso catálogo de bares.</a>
+                </div>
+            </article>
+
+            <h2>Restaurantes</h2>
+            <article>
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit error nostrum cum dolores,
+                        maiores voluptas sunt ducimus, totam illo vero assumenda odit aperiam non atque! Culpa repellat
+                        molestiae odit suscipit!</p>
+                    <a href="#">Saiba mais sobre nosso catálogo de restaurantes.</a>
+                </div>
+                <img class="imagens"
+                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/5e/5f/e1/caption.jpg?w=600&h=400&s=1"
+                    alt="Imagem de restaurante com pessoas se alimentando.">
+            </article>
+
+            <h2>Boates</h2>
+            <article>
+                <img class="imagens"
+                    src="https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2020/08/festa-rave-stock.jpeg"
+                    alt="Imagem de boate com globo de luz, fumaça, luzes e muitas pessoas dançando.">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus officiis id amet rem
+                        laboriosam nobis voluptatem, exercitationem neque dolores quidem modi doloribus possimus animi
+                        sequi mollitia totam atque quibusdam et!</p>
+                    <a href="#">Saiba mais sobre nosso catálogo de boates.</a>
+                </div>
+            </article>
+
+            <h2>Shows</h2>
+            <article>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quibusdam architecto nam illo,
+                        nostrum deleniti. Sit unde nobis aperiam, dolores eaque natus, deserunt beatae corporis itaque
+                        doloribus pariatur voluptatem temporibus.</p>
+                    <a href="#">Saiba mais sobre nosso catálogo de shows.</a>
+                </div>
+                <img class="imagens" src="https://marcozero.org/wp-content/uploads/2023/11/Fabiana-titas-3.jpg"
+                    alt="Foto traseira de uma banda em um show, em um estádio lotado.">
+            </article>
+
+        </section>
+        <section>
+            <h2>Qual sua preferência de destino de diversão?</h2>
+            <form action="#">
+                <fieldset>
+                    <div>
+                        <input type="checkbox" name="bar" id="bar">
+                        <label for="bar">Bar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="restaurante" id="restaurante">
+                        <label for="restaurante">Restaurante</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="boate" id="boate">
+                        <label for="boate">Boate</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="show" id="show">
+                        <label for="show">Show</label>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <h2>Gosta de conhecer lugares novos?</h2>
+            <form action="#">
+                <fieldset>
+                    <div>
+                        <input type="radio" name="resposta" id="sim">
+                        <label for="sim">Sim</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="resposta" id="nao">
+                        <label for="nao">Não</label>
+                    </div>
+
+
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <h2>Cadastre-se e informaremos sobre eventos de sua preferência</h2>
+            <form action="#">
+                <fieldset id="cadastro" style="margin-bottom: 10px; flex-direction: row;">
+                    <div style="flex-direction: column;">
+                        <div style="margin-bottom: 5px;">
+                            <label for="nome">Nome:</label>
+                        </div>
+                        <div style="margin-bottom: 4px;">
+                            <label for="idade">Idade:</label>
+                        </div>
+                        <div style="margin-bottom: 4px;">
+                            <label for="email">E-mail:</label>
+                        </div>
+                        <div style="margin-bottom: 3px;">
+                            <label for="telefone">Telefone:</label>
+                        </div>
+                        <div>
+                            <label for="senha">Senha:</label>
+                        </div>
+                    </div>
+                    <div style="flex-direction: column;">
+                        <div>
+                            <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required>
+                        </div>
+                        <div>
+                            <input type="number" name="idade" id="idade" placeholder="Digite sua idade" required>
+                        </div>
+                        <div>
+                            <input type="text" name="email" id="email" placeholder="exemplo@email.com" required>
+                        </div>
+                        <div>
+                            <input type="number" name="telefone" id="telefone" placeholder="Digite o telefone" required>
+                        </div>
+                        <div>
+                            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                        </div>
+                </fieldset>
+                <input id="cadastrar" type="submit" value="Cadastrar">
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
